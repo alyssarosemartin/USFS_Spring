@@ -18,7 +18,7 @@ setwd(RasterFolder)
 
 #Get the BEST SI-x data 1901-2013 SI-x FLI dates, using a loop
 for(year in 2010:2010){
-  npn_download_geospatial('si-x:average_leaf_best', paste0(year,'-01-01'),output_path=paste0(year,"_si-x_fli_best_HELP",".tif"))
+  npn_download_geospatial('si-x:average_leaf_best', paste0(year,'-01-01'),output_path=paste0(year,"_si-x_fli_best",".tif"))
 }
 
 #Get the BEST SI-x data 1901-2013 SI-x FBI dates, using a loop
