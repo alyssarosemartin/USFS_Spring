@@ -5,6 +5,7 @@ This repository contains two scripts:
 ## Recent Springs Relative to the 122 Year Historic Range of Variability
 
 Folder: Long-term_changes
+
 Script: USFS_Spring_LongTerm_Change.R
 
 This script replicates the Monahan et al 2016 methods (https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1465) to determine the location of the most recent 10, 20 and 30 year periods relative to the 122 year historic range of variability for each unit in the National Forest System
@@ -14,6 +15,7 @@ The script produces a CSV file with the percentile value for recent springs rela
 ## Recent (1991-Present) Patterns in Spring Arrival
 
 Folder: Recent_patterns
+
 Script: USFS_Recent_Spring_Patterns.R
 This script enables you to calculate the day of year of spring arrival 1991-present, based on PRISM data, National Forest System.
 
